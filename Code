@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+    int x,y ;
+    int sum ;
+    char op ;
+    cout << "Type a number:" ;
+    cin >> x ;
+    cout << "Type second number:" ;
+    cin >> y ;
+    cout << "Please choose your calculation:" ;
+    cin >> op ;
+    if (op=='+')
+       sum = x+y ;
+    else if (op=='-')
+       sum = x-y ;
+    else if (op=='*')
+       sum = x*y ;
+    else if (op=='/')
+       sum = x/y ;
+    cout << "Sum is:" << sum;
+  return 0;
+}
